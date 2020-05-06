@@ -12,7 +12,7 @@ Memory level of class object: displaying the memory address of the reference poi
 - we can deallocatewd the resources aka the actuall data on the heap memory via 
 `deinit{}`
 
-Note: we can use keyword "required" to make **Required Initializer** which indicates that every subclass haveto implement this initializer.  
+Note: we can use keyword "required" to make **Required Initializer** which indicates that every subclass have to implement this initializer.  
 `required init() {}`
 
 
