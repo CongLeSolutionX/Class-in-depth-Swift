@@ -1,83 +1,210 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
+- "Product"
 - "HomeViewController"
 provides-nominal:
+- "20Class_in_depth_Swift7ProductC"
 - "20Class_in_depth_Swift18HomeViewControllerC"
 provides-member:
+- ["20Class_in_depth_Swift7ProductC", ""]
 - ["20Class_in_depth_Swift18HomeViewControllerC", ""]
 provides-dynamic-lookup:
 - "viewDidLoad"
 depends-top-level:
+- !private "==="
+- "AssignmentPrecedence"
+- !private "FloatLiteralType"
 - "HomeViewController"
+- "Int"
+- !private "IntegerLiteralType"
+- "NSObject"
+- "Product"
+- !private "StringLiteralType"
 - "UIViewController"
+- !private "Unmanaged"
+- !private "UnsafeMutablePointer"
+- !private "print"
 depends-member:
+- !private ["s7CVarArgP", "Product"]
+- !private ["s7CVarArgP", "Unmanaged"]
+- !private ["s7CVarArgP", "UnsafeMutablePointer"]
 - ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "identifier"]
 - !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "print"]
 - !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Product"]
+- !private ["s28CustomDebugStringConvertibleP", "Unmanaged"]
+- !private ["s28CustomDebugStringConvertibleP", "UnsafeMutablePointer"]
 - ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "identifier"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "Product"]
+- !private ["s23CustomStringConvertibleP", "Unmanaged"]
+- !private ["s23CustomStringConvertibleP", "UnsafeMutablePointer"]
 - ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "identifier"]
 - !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "print"]
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["SQ", "Product"]
+- !private ["SQ", "Unmanaged"]
+- !private ["SQ", "UnsafeMutablePointer"]
 - ["SQ", ""]
+- !private ["SQ", "identifier"]
 - !private ["SQ", "init"]
+- !private ["SQ", "print"]
 - !private ["SQ", "viewDidLoad"]
+- !private ["SH", "Product"]
+- !private ["SH", "Unmanaged"]
+- !private ["SH", "UnsafeMutablePointer"]
 - ["SH", ""]
+- !private ["SH", "identifier"]
 - !private ["SH", "init"]
+- !private ["SH", "print"]
 - !private ["SH", "viewDidLoad"]
+- !private ["20Class_in_depth_Swift18HomeViewControllerC", "Product"]
+- !private ["20Class_in_depth_Swift18HomeViewControllerC", "Unmanaged"]
+- !private ["20Class_in_depth_Swift18HomeViewControllerC", "UnsafeMutablePointer"]
 - ["20Class_in_depth_Swift18HomeViewControllerC", "deinit"]
 - ["20Class_in_depth_Swift18HomeViewControllerC", "init"]
+- !private ["20Class_in_depth_Swift18HomeViewControllerC", "print"]
 - ["20Class_in_depth_Swift18HomeViewControllerC", "viewDidLoad"]
+- !private ["So8NSCodingP", "Product"]
+- !private ["So8NSCodingP", "Unmanaged"]
+- !private ["So8NSCodingP", "UnsafeMutablePointer"]
 - ["So8NSCodingP", ""]
 - !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "print"]
 - !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "Product"]
+- !private ["So26NSExtensionRequestHandlingP", "Unmanaged"]
+- !private ["So26NSExtensionRequestHandlingP", "UnsafeMutablePointer"]
 - ["So26NSExtensionRequestHandlingP", ""]
 - !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "Product"]
+- !private ["So8NSObjectC", "Unmanaged"]
+- !private ["So8NSObjectC", "UnsafeMutablePointer"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "identifier"]
 - ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "print"]
 - ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectP", "Product"]
+- !private ["So8NSObjectP", "Unmanaged"]
+- !private ["So8NSObjectP", "UnsafeMutablePointer"]
 - ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "identifier"]
 - !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "print"]
 - !private ["So8NSObjectP", "viewDidLoad"]
+- ["20Class_in_depth_Swift7ProductC", "Int"]
+- ["20Class_in_depth_Swift7ProductC", "deinit"]
+- ["20Class_in_depth_Swift7ProductC", "identifier"]
+- ["20Class_in_depth_Swift7ProductC", "init"]
+- !private ["Sx", "init"]
+- !private ["So21UIAppearanceContainerP", "Product"]
+- !private ["So21UIAppearanceContainerP", "Unmanaged"]
+- !private ["So21UIAppearanceContainerP", "UnsafeMutablePointer"]
 - ["So21UIAppearanceContainerP", ""]
 - !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "print"]
 - !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "Product"]
+- !private ["So18UIContentContainerP", "Unmanaged"]
+- !private ["So18UIContentContainerP", "UnsafeMutablePointer"]
 - ["So18UIContentContainerP", ""]
 - !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "print"]
 - !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So18UIFocusEnvironmentP", "Product"]
+- !private ["So18UIFocusEnvironmentP", "Unmanaged"]
+- !private ["So18UIFocusEnvironmentP", "UnsafeMutablePointer"]
 - ["So18UIFocusEnvironmentP", ""]
 - !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "print"]
 - !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So30UIPasteConfigurationSupportingP", "Product"]
+- !private ["So30UIPasteConfigurationSupportingP", "Unmanaged"]
+- !private ["So30UIPasteConfigurationSupportingP", "UnsafeMutablePointer"]
 - ["So30UIPasteConfigurationSupportingP", ""]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So11UIResponderC", "Product"]
+- !private ["So11UIResponderC", "Unmanaged"]
+- !private ["So11UIResponderC", "UnsafeMutablePointer"]
 - ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "print"]
 - ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "Product"]
+- !private ["So30UIResponderStandardEditActionsP", "Unmanaged"]
+- !private ["So30UIResponderStandardEditActionsP", "UnsafeMutablePointer"]
 - ["So30UIResponderStandardEditActionsP", ""]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
 - !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "Product"]
+- !private ["So16UIStateRestoringP", "Unmanaged"]
+- !private ["So16UIStateRestoringP", "UnsafeMutablePointer"]
 - ["So16UIStateRestoringP", ""]
 - !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "print"]
 - !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "Product"]
+- !private ["So18UITraitEnvironmentP", "Unmanaged"]
+- !private ["So18UITraitEnvironmentP", "UnsafeMutablePointer"]
 - ["So18UITraitEnvironmentP", ""]
 - !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "print"]
 - !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "Product"]
+- !private ["So23UIUserActivityRestoringP", "Unmanaged"]
+- !private ["So23UIUserActivityRestoringP", "UnsafeMutablePointer"]
 - ["So23UIUserActivityRestoringP", ""]
 - !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "print"]
 - !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So16UIViewControllerC", "Product"]
+- !private ["So16UIViewControllerC", "Unmanaged"]
+- !private ["So16UIViewControllerC", "UnsafeMutablePointer"]
 - ["So16UIViewControllerC", ""]
 - ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "print"]
 - ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["s9UnmanagedV", "passUnretained"]
+- !private ["s9UnmanagedV", "toOpaque"]
+- !private ["Sp", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Product"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Unmanaged"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UnsafeMutablePointer"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "identifier"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Product"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Unmanaged"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UnsafeMutablePointer"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "identifier"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- !private ["s8_PointerP", "init"]
 depends-nominal:
 - "s7CVarArgP"
+- !private "SL"
 - "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
 - "SQ"
 - "SH"
@@ -86,6 +213,8 @@ depends-nominal:
 - "So26NSExtensionRequestHandlingP"
 - "So8NSObjectC"
 - "So8NSObjectP"
+- "20Class_in_depth_Swift7ProductC"
+- !private "Sx"
 - "So21UIAppearanceContainerP"
 - "So18UIContentContainerP"
 - "So18UIFocusEnvironmentP"
@@ -96,8 +225,12 @@ depends-nominal:
 - "So18UITraitEnvironmentP"
 - "So23UIUserActivityRestoringP"
 - "So16UIViewControllerC"
+- !private "s9UnmanagedV"
+- !private "Sp"
+- !private "s30_CustomPlaygroundQuickLookableP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s8_PointerP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
@@ -1310,4 +1443,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "e79d541433b6c5492d83b47ce7943880"
+interface-hash: "49fa404006f2347b4a6eecc3e4b3543a"
