@@ -19,6 +19,7 @@ depends-top-level:
 - !private "IntegerLiteralType"
 - "NSObject"
 - "Product"
+- "String"
 - !private "StringLiteralType"
 - "UIViewController"
 - !private "Unmanaged"
@@ -31,6 +32,7 @@ depends-member:
 - ["s7CVarArgP", ""]
 - !private ["s7CVarArgP", "identifier"]
 - !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "name"]
 - !private ["s7CVarArgP", "print"]
 - !private ["s7CVarArgP", "viewDidLoad"]
 - !private ["SL", "init"]
@@ -40,6 +42,7 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "identifier"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
 - !private ["s28CustomDebugStringConvertibleP", "print"]
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
 - !private ["s17CustomReflectableP", "init"]
@@ -47,16 +50,22 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "Unmanaged"]
 - !private ["s23CustomStringConvertibleP", "UnsafeMutablePointer"]
 - ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
 - !private ["s23CustomStringConvertibleP", "identifier"]
 - !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "name"]
 - !private ["s23CustomStringConvertibleP", "print"]
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
 - !private ["SQ", "Product"]
 - !private ["SQ", "Unmanaged"]
 - !private ["SQ", "UnsafeMutablePointer"]
 - ["SQ", ""]
 - !private ["SQ", "identifier"]
 - !private ["SQ", "init"]
+- !private ["SQ", "name"]
 - !private ["SQ", "print"]
 - !private ["SQ", "viewDidLoad"]
 - !private ["SH", "Product"]
@@ -65,6 +74,7 @@ depends-member:
 - ["SH", ""]
 - !private ["SH", "identifier"]
 - !private ["SH", "init"]
+- !private ["SH", "name"]
 - !private ["SH", "print"]
 - !private ["SH", "viewDidLoad"]
 - !private ["20Class_in_depth_Swift18HomeViewControllerC", "Product"]
@@ -90,11 +100,13 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
 - ["So8NSObjectC", "Int"]
 - !private ["So8NSObjectC", "Product"]
+- ["So8NSObjectC", "String"]
 - !private ["So8NSObjectC", "Unmanaged"]
 - !private ["So8NSObjectC", "UnsafeMutablePointer"]
 - ["So8NSObjectC", ""]
 - ["So8NSObjectC", "identifier"]
 - ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "name"]
 - !private ["So8NSObjectC", "print"]
 - ["So8NSObjectC", "viewDidLoad"]
 - !private ["So8NSObjectP", "Product"]
@@ -103,13 +115,20 @@ depends-member:
 - ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "identifier"]
 - !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "name"]
 - !private ["So8NSObjectP", "print"]
 - !private ["So8NSObjectP", "viewDidLoad"]
 - ["20Class_in_depth_Swift7ProductC", "Int"]
+- ["20Class_in_depth_Swift7ProductC", "String"]
 - ["20Class_in_depth_Swift7ProductC", "deinit"]
 - ["20Class_in_depth_Swift7ProductC", "identifier"]
 - ["20Class_in_depth_Swift7ProductC", "init"]
+- ["20Class_in_depth_Swift7ProductC", "name"]
 - !private ["Sx", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
 - !private ["So21UIAppearanceContainerP", "Product"]
 - !private ["So21UIAppearanceContainerP", "Unmanaged"]
 - !private ["So21UIAppearanceContainerP", "UnsafeMutablePointer"]
@@ -189,6 +208,7 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "identifier"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Product"]
@@ -197,6 +217,7 @@ depends-member:
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "identifier"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "name"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
 - !private ["s8_PointerP", "init"]
@@ -206,6 +227,7 @@ depends-nominal:
 - "s28CustomDebugStringConvertibleP"
 - !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
+- !private "s26DefaultStringInterpolationV"
 - "SQ"
 - "SH"
 - "20Class_in_depth_Swift18HomeViewControllerC"
@@ -215,6 +237,8 @@ depends-nominal:
 - "So8NSObjectP"
 - "20Class_in_depth_Swift7ProductC"
 - !private "Sx"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
 - "So21UIAppearanceContainerP"
 - "So18UIContentContainerP"
 - "So18UIFocusEnvironmentP"
@@ -1443,4 +1467,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "49fa404006f2347b4a6eecc3e4b3543a"
+interface-hash: "f3c75607e72d483e54c5398c690cd948"

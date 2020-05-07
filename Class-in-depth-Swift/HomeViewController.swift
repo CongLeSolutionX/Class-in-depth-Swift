@@ -10,9 +10,11 @@ import UIKit
 
 class Product: NSObject {
     let identifier: Int
+    let name: String
     
-    init(identifier: Int) {
+    init(identifier: Int, name: String) {
         self.identifier = identifier
+        self.name = name
         super.init()
     }
   
@@ -24,17 +26,21 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        var productOne = Product(identifier: 5)
+        var productOne = Product(identifier: 5, name: "ProductOne")
         var productTwo = productOne // sharing the same resources, aka point to the same memory address
         
         // comparing resource/data of 2 objects
         if (productOne === productTwo) {
-            print("productTwo and productOne point to the same memory address of the resource/data, as shown below ")
+            print("productTwo and productOne point to the same memory address of the resource/data in the heap memory, as shown below:")
             print(Unmanaged.passUnretained(productOne).toOpaque())
             print(Unmanaged.passUnretained(productTwo).toOpaque())
-            
+            print("The propety of the prodcutTwo will be the same as productTwo the following:")
+            print("productOne has name: \(productOne.name)")
+            print("productTwo has name: \(productTwo.name)")
+            print("========================================================================")
             // making a var variable and passing the value of objectOne using input parameter.
             // get the memory address of the reference pointer of each product, expected the see differences.
+            print("The reference pointer of each product in the stack memoery will be difference as following:")
             let referencePointer1 = UnsafeMutablePointer<Product>(&productOne)
             let referencePointer2 = UnsafeMutablePointer<Product>(&productTwo)
             print(referencePointer1)
